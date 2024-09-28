@@ -121,3 +121,32 @@ int main() {
 
     return 0;
 }
+
+
+
+challenge 9
+
+
+
+#include <stdio.h>
+
+int main() {
+    
+    int i, t,a;
+
+   printf("donner element de tableau:");
+   scanf("%d",&a);
+   int tab[a];
+    
+    for (i = 0; i <a; i++) {
+        printf("Tableau:");
+        scanf("%d",&t);
+        tab[i]=t;
+    
+        
+    }
+    for (i = a-1; i >=0; i--) {
+        printf("%d \n" ,tab[i]);
+}
+    return 0;
+}
